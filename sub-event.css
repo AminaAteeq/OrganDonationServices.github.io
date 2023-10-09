@@ -1,0 +1,9 @@
+.home2{
+    min-height:90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(sub-event.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}

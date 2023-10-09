@@ -1,0 +1,157 @@
+.heading  {
+    text-align: center;
+    display: block;
+    margin-left: 34%;
+    margin-top: 5%;
+    border: 2px solid rgb(187, 19, 19);
+    background-color:rgb(187, 19, 19) ;
+    width: 35%;
+    height: 10vh;
+    border-radius: 40px; 
+}
+.transplant-img img{
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin-left: 60%;
+
+}
+.block1{
+    width: 90%;
+    height: 60vh;
+    margin-top: 7%;
+    margin-left: 5%;
+    border: 1px solid rgb(187, 19, 19);
+    border-left:8px solid rgb(187, 19, 19);
+    border-right:8px solid rgb(187, 19, 19);
+
+    border-radius: 50px;
+
+}
+ .hospital1 img{
+    /* border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px; */
+    border-radius: 250px;
+}
+.hospital2 img{
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+.block1 h4{
+    /* color: rgb(151, 18, 18) ; */
+    color: rgb(45, 116, 148) ;
+    font-size: 23px;
+    font-style: italic;
+}
+.checked {
+    color: orange;
+}
+.paragraph h5{
+    font-size: 18px;
+    color: rgb(151, 18, 18);
+    font-style: italic;
+}
+.paragraph img{
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.paragraph p{
+    margin-left: 48%;
+    margin-top: -2%;
+}
+.block2{
+    margin-left: 5%;
+    margin-top: -1%;
+}
+@media only screen   
+and (min-device-width : 400px)   
+and (max-device-width : 700px)
+{
+.heading 
+ {
+    margin-left: 20%;
+    margin-top: 22%;
+    width: 60%;
+    height: 10vh;
+    padding-top: 2.5%;
+    padding-left: 1.2rem;  
+}
+.block1{
+    width: 98%;
+    height: 40vh;
+    margin-top: 7%;
+    margin-left: 1%;
+
+}
+.hospital1 img{
+    margin-top: 10%;
+}
+.block2{
+    margin-top: -37%;
+    margin-left: 10%;
+}
+#block22{
+    margin-top: -40%;
+    margin-left: 10%;
+}
+.hospital2 img{
+    margin-top: 6%;
+    padding-top: 3%;
+}
+.block1 .block2 .paragraph h5{
+   margin-left: -10%;
+   font-size: 1.3rem;
+}
+.block1 .block2 .paragraph img{
+    width: 4%;
+    height: 4%;
+ }
+ .block1 .block2 .paragraph .email{
+    margin-top: -4%;
+ }
+.block1 .block2 .paragraph p{
+    /* margin-left: -10%; */
+    /* font-size: 1.3rem; */
+    margin-top: -4%;
+ }
+ .footer-container .footer{
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .foot-box{
+    border:.1rem solid rgb(247, 237, 237);
+    border-radius: .5rem;
+    background-color:rgb(247, 237, 237);
+    max-height: 70vh;
+    margin-bottom: -10px;
+  }
+  
+  .next-box{
+    float: right;
+    margin-top: -28.5%;
+    text-align: right;
+    margin-right: 5%;
+    
+  }
+  .footer img{
+    display: none;
+  }
+  .foot-sec{
+    margin-left: 10%;
+    margin-top: -50px;
+  }
+  
+  .social-app{
+    display: flexbox;
+    justify-self: center;
+    margin-left: 15%;
+    margin-top: -10%;
+    
+  } 
+  #foot-p{
+    display: none;
+  }
+
+}

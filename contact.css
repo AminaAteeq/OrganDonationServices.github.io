@@ -1,0 +1,128 @@
+.home1{
+    min-height:85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(contact.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.vl {
+    border-left: 6px solid rgb(187, 19, 19);
+    /* border-left: 6px solid rgb(37, 110, 146);  */
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 90px;
+  }
+h3{
+    margin-top: 90px;
+    margin-left: 39px;
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(187, 19, 19);
+}
+h2{
+    margin-top: -5px;
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 45px;
+    color: rgb(187, 19, 19);
+}
+.contact{
+    margin-top: 5%;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(187, 19, 19);
+}
+.contact i{
+    margin-left: 2%;
+    color: rgb(187, 19, 19);
+}
+.contact-p{
+    /* text-align: center; */
+    margin-top: 5%;
+    font-size: 18px;
+}
+.p3{
+    /* text-align: center; */
+    margin-top: 3%;
+    color: rgb(187, 19, 19);
+    font-weight: 500;
+}
+.contact-pic img{
+    float: right;
+    margin-top: -50%;
+    margin-right: 5%;
+    border-radius: 200px;
+}
+@media only screen   
+and (min-device-width : 700px)   
+and (max-device-width : 1100px){
+    .felxx img{
+        display: none;
+    }
+}
+@media only screen   
+and (min-device-width : 1100px)   
+and (max-device-width : 1200px){
+    .felxx img{
+        display: none;
+    }
+}
+
+@media only screen   
+and (min-device-width : 400px)   
+and (max-device-width : 700px) {
+    .felxx img{
+        display: none;
+    }
+    .footer-container .footer{
+        margin-top: 8%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .foot-box{
+        border:.1rem solid rgb(247, 237, 237);
+        border-radius: .5rem;
+        background-color:rgb(247, 237, 237);
+        max-height: 70vh;
+        margin-bottom: -10px;
+      }
+      
+      .next-box{
+        float: right;
+        margin-top: -28.5%;
+        text-align: right;
+        margin-right: 5%;
+        
+      }
+      .footer img{
+        display: none;
+      }
+      .foot-sec{
+        margin-left: 10%;
+        margin-top: -50px;
+      }
+      
+      .social-app{
+        display: flexbox;
+        justify-self: center;
+        margin-left: 15%;
+        margin-top: -10%;
+        
+      } 
+      #foot-p{
+        display: none;
+      }
+      
+}
+/* .felxx{
+    min-height:86vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(flex.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+} */

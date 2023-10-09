@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Registration Form in HTML CSS</title>
+    <!---Custom CSS File--->
+    
+    <link rel="stylesheet" href="receiver-eyeform.css">
+  </head>
+  <body>
+    <!-- <div class="back-img">
+        <img src="world hepatitis day social media template (Facebook Post) (1).png" alt="" >
+    </div> -->
+    <section class="container">
+      <div class="box" style=" margin-top: 6%; margin-left: 20%; margin-bottom: 6%; width: 50%;height: 9vh; border-left:  6px solid rgb(4, 109, 136);
+      border-radius: 7px; border-right:  6px solid rgb(4, 109, 136); 
+      border-top:1px solid rgb(54, 128, 158); border-bottom:1px solid rgb(54, 128, 158);">
+        <header style=" margin-top: -1%; justify-content: center;
+         margin-bottom: 10%; color: rgb(54, 128, 158); font: 1.7rem sans-serif; 
+         ">
+          Registration Form </header>
+      </div>
+
+      <div class="box" style=" margin-top: 6%;margin-left: 12%; margin-bottom: 6%; width: 65%;height: 9vh; border-left:  6px solid rgb(194, 9, 9);
+        border-radius: 7px; border-right:  6px solid rgb(194, 9, 9); 
+        border-top:1px solid rgb(194, 9, 9); border-bottom:1px solid rgb(194, 9, 9);">
+          <header style=" margin-top: -1%;  justify-content: center;
+           margin-bottom: 10%; color: rgb(194, 9, 9); font: 1.7rem sans-serif; 
+           ">
+            Eye Receiver Form <i class="fa-solid fa-eye" style="font-size: 40px;margin-left: 2%; margin-top: -2%; color: rgb(194, 9, 9);"></i></header>
+        </div>
+       
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Father Name/Husband Name</label>
+          <input type="text" placeholder="Enter Father Name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text" placeholder="Enter email address" required />
+        </div>
+
+          <div class="input-box">
+            <label>CNIC</label>
+            <input type="number" placeholder="XXXX-XXXXXXX-X" required pattern="^[0-9]{5}-[0-9]{7}-[0-9]{1}$" title="Please Type CNIC like 12345-1234567-1"/>
+          </div>
+        
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+
+          
+          <div class="input-box">
+            <label>Birth Date</label>
+            <input type="date" placeholder="Enter birth date" required />
+          </div>
+        </div>
+        
+            <!-- <input type="text" placeholder="Enter your city" required /> -->
+          </div>
+        <div class="gender-box">
+          <h3 style="color: rgb(54, 128, 158);">Gender</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">prefer not to say</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <label>Age</label>
+          <input type="number" placeholder="Enter your Age" required part="^[0-9]{1}$" />
+        </div>
+
+        <div class="input-box">
+            <label>Current Eye-Sight</label>
+            <input type="number" placeholder="Enter your Eye-sight number" required part="^[0-9]{1}$" />
+          </div>
+
+        <div class="input-box">
+          <label>Organ Type</label>
+          <!-- <h3>Blood Group</h3> -->
+          <div class="select-box">
+            <select>
+              <option hidden>Select Organ type you want to donate</option>
+              <option>Eye donation</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <label>Blood Group</label>
+            <!-- <h3>Blood Group</h3> -->
+            <div class="select-box">
+              <select>
+                <option hidden>Select your Blood Group</option>
+                <option>A+</option>
+                <option>B+</option>
+                <option>AB+</option>
+                <option>A-</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+              </select>
+            </div>
+
+          <div class="input-box">
+            <label>Past Eye disease</label>
+            <!-- <h3>Blood Group</h3> -->
+            <div class="select-box">
+              <select>
+                <option hidden>Any past Eye dieases</option>
+                <option>Refractive Errors</option>
+                <option>Cataract</option>
+                <option>Diabetic Retinopathy</option>
+                <option>Glaucoma</option>
+                <option>Amblyopia</option>
+                <option>Strabismus</option>
+                <option>NULL</option>
+              </select>
+            </div>
+
+
+        <div class="input-box address">
+          <label>Address</label>
+          <input type="text" placeholder="Enter street address" required />
+          <input type="text" placeholder="Enter street address line 2" required />
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>City</option>
+                <option>Lahore</option>
+                <option>Karachi</option>
+                <option>Islamabad</option>
+                <option>fasilabad</option>
+                <option>Sailkot</option>
+                <option>Sheikhpura</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Enter your city" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Enter your region" required />
+            <input type="number" placeholder="Enter postal code" required />
+          </div>
+        </div>
+        <div class="input-box">
+        <label for="myfile">Eye medical-Tests</label>
+        <input type="file" id="myfile" name="myfile" style="padding-top: 0.7rem; background-color: white; " ><br><br>
+         <!-- <input type="text" placeholder="Enter your Height" required /> -->
+      </div>
+        <!-- <div class="box" style=" margin-top: 6%; margin-bottom: 6%; width: 60%;height: 9vh; border-left:  6px solid rgb(4, 109, 136);
+        border-radius: 7px; border-right:  6px solid rgb(4, 109, 136); 
+        border-top:1px solid rgb(54, 128, 158); border-bottom:1px solid rgb(54, 128, 158);">
+          <header style=" margin-top: -1%; justify-content: center;
+           margin-bottom: 10%; color: rgb(54, 128, 158); font: 1.7rem sans-serif; 
+           ">
+            Family Relative info</header>
+        </div>
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Father Name/Husband Name</label>
+          <input type="text" placeholder="Enter Father Name" required />
+        </div>
+        
+        <div class="input-box">
+          <label>Blood Relation </label>
+          <input type="text" placeholder="Your Relation with his/him" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter Relative phone number" required />
+          </div>
+        </div> -->
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

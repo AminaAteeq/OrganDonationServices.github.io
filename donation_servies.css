@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.donate-title{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    /* animation: slide.6s linear 1s backwards; */
+    
+}
+.donate-title h4{
+    font-size: 2rem;
+    color: rgb(194, 9, 9);
+    margin-top: 7%;
+    font-size: 2rem;
+    /* margin-left: 14%; */
+    text-align: center;
+    margin-bottom: 3%;
+    box-sizing: content-box;
+    color: rgb(166, 12, 12);
+    text-align: center;
+    border: 2px solid #b30000;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 30%;
+    background-color: rgb(252, 248, 248);
+    border-left: 7px solid rgb(166, 12, 12) ;
+    border-right: 7px solid rgb(166, 12, 12) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: slide.6s linear 1s backwards;
+}
+@keyframes slide{
+    0%{
+      opacity: 0;
+      transform: translateX(-10rem);
+    }
+  } 
+.donate-title i{
+    padding-left: 1rem;
+    color: rgb(166, 12, 12);
+}
+.donate-title img{
+    margin-top:-8% ;
+    width: 30%;
+    height: 60vh;
+    float: right;
+    margin-right:5%;
+    animation: slide1.6s linear 1s backwards;
+}
+@keyframes slide1{
+    0%{
+      opacity: 0;
+      transform: translateY(10rem);
+    }
+  } 
+.donate-paragraph {
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.donate-paragraph p{
+    font-size: 20px;
+    overflow:hidden ;
+}
+.category{
+    margin-top: 10%;
+    font-size: 1.5rem;
+    /* margin-left: 14%; */
+    text-align: center;
+    margin-bottom: 3%;
+    box-sizing: content-box;
+    color: rgb(166, 12, 12);
+    text-align: center;
+    /* margin-top: 36%; */
+    /* font-size: 22px; */
+    border: 2px solid #b30000;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: rgb(252, 248, 248);
+    border-left: 7px solid rgb(166, 12, 12) ;
+    border-right: 7px solid rgb(166, 12, 12) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.category h4{
+    color: rgb(194, 9, 9);
+    
+}
+.flip-card {
+    margin-top: 5%;
+    margin-left: 8%;
+    background-color: transparent;
+    width: 300px;
+    border: 2px rgb(194, 9, 9);
+    height: 300px;
+    display: inline-block;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px rgb(194, 9, 9);
+    border-left: 2px solid rgb(223, 218, 218);
+    border-right: 2px solid rgb(223, 218, 218);
+    border-top: 2px solid rgb(223, 218, 218);
+    border-bottom: 2px solid rgb(223, 218, 218);
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    border-radius: 15px;
+    border: 2px rgb(194, 9, 9);
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    
+    border: 2px rgb(194, 9, 9);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    border: 2px rgb(194, 9, 9);
+    border-radius: 15px;
+    background-color: #f7f3f3;
+    color: black;
+    
+  }
+  
+  .flip-card-back {
+    background-color: rgb(188, 11, 11);
+    color: white;
+    font-size: 22px;
+    border-radius: 15px;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back h1{
+    font-size: 20px;
+  }
+.list1{
+    margin-left: 5%;
+}
+.list1 h4{
+    margin-left: 1%;
+}
+
+.list1 li p{
+    /* margin-left: 1%; */
+    text-overflow: hidden;    
+    /* padding-left: 15rem; */
+}
+.list1 p{
+    margin-top: -2%;
+    margin-left: 2.5%;
+}
+
+@media only screen   
+and (min-device-width : 400px)   
+and (max-device-width : 700px) 
+{
+  .donate-title{
+    margin-top: 10rem;
+    margin-left: 1.5rem;  
+}
+.donate-title h4{
+
+  margin-top: 7%;
+  font-size: 2rem;
+  /* margin-left: 14%; */
+  margin-bottom: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+  width:45%;
+  
+}
+.donate-title i{
+  display: none;
+  /* padding-left: 18rem;
+  padding-bottom: 30%; */
+}
+.donate-title img{
+  /* display: none; */
+  margin-top:-8% ;
+  width: 45%;
+  height: 40vh;
+  float: right;
+  margin-right:3%;
+  animation: slide1.6s linear 1s backwards;
+}
+.category{
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 3%; 
+  height: 50px;
+  width: 70%;
+  margin-left: 15%;
+}
+.flip-card {
+  margin-top: 5%;
+  margin-left: 3%;
+  background-color: transparent;
+  width: 300px;
+  border: 2px rgb(194, 9, 9);
+  height: 300px;
+  display: inline-block;
+  perspective: 1000px;
+}
+.footer-container{
+  margin-top: 5%;
+}
+.footer-container .footer{
+  margin-top: 8%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.foot-box{
+  border:.1rem solid rgb(247, 237, 237);
+  border-radius: .5rem;
+  background-color:rgb(247, 237, 237);
+  max-height: 70vh;
+  margin-bottom: -10px;
+}
+
+.next-box{
+  float: right;
+  margin-top: -28.5%;
+  text-align: right;
+  margin-right: 5%;
+  
+}
+.footer img{
+  display: none;
+}
+.foot-sec{
+  margin-left: 10%;
+  margin-top: -50px;
+}
+
+.social-app{
+  display: flexbox;
+  justify-self: center;
+  margin-left: 15%;
+  margin-top: -10%;
+  
+} 
+#foot-p{
+  display: none;
+}
+}

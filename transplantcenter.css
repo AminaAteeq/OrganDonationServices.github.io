@@ -1,0 +1,146 @@
+.heading  {
+    text-align: center;
+    display: block;
+    margin-left: 34%;
+    margin-top: 5%;
+    border: 2px solid rgb(45, 116, 148);
+    background-color:rgb(45, 116, 148) ;
+    width: 30%;
+    height: 10vh;
+    border-radius: 40px;
+}
+.transplant-img img{
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin-left: 60%;
+
+}
+.block1{
+    width: 90%;
+    height: 50vh;
+    margin-top: 7%;
+    margin-left: 5%;
+    border: 1px solid rgb(45, 116, 148);
+    border-left:8px solid rgb(45, 116, 148) ;
+    border-right:8px solid rgb(45, 116, 148);
+    border-radius: 50px;
+}
+ .hospital1 img{
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.hospital2 img{
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+.hospital5 img{
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.block1 h4{
+    /* color: rgb(151, 18, 18) ; */
+    color: rgb(45, 116, 148) ;
+    font-size: 23px;
+    font-style: italic;
+}
+.checked {
+    color: orange;
+}
+.paragraph h5{
+    font-size: 18px;
+    color: rgb(151, 18, 18);
+    font-style: italic;
+}
+.paragraph img{
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.paragraph p{
+    margin-left: 48%;
+    margin-top: -2%;
+}
+.block2{
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+@media only screen   
+and (min-device-width : 400px)   
+and (max-device-width : 700px)
+ {
+    .heading  {
+       
+        margin-left: 23%;
+        margin-top: 25%;
+        width: 55%;
+        height: 10vh;
+        border-radius: 38px;
+        padding-top: 2.9%;
+        padding-left: 2.3%;
+        
+    }
+    .block1{
+        width: 90%;
+        height: 28vh;
+        margin-top: 7%;
+        margin-left: 5%;
+        border: 1px solid rgb(45, 116, 148);
+        border-left:8px solid rgb(45, 116, 148) ;
+        border-right:8px solid rgb(45, 116, 148);
+        border-radius: 50px;
+    }
+    .hospital1 img{
+        border-top-left-radius: 150px;
+        border-bottom-right-radius: 150px;
+        margin-top: 4%;
+        width: 45%;
+        height: 45%;
+    }
+    .hospital2 img{
+        border-top-left-radius: 110px;
+        border-bottom-right-radius: 110px;
+        width: 45%;
+        height: 45%;
+    }
+    .hospital5 img{
+        border-top-left-radius: 140px;
+        border-bottom-right-radius: 140px;
+        margin-top: 2%;
+        width: 52%;
+        height: 23vh;
+    }
+    #hospital-5 img{
+        margin-top: 5%;
+        border-top-left-radius: 120px;
+        border-bottom-right-radius: 120px;
+    }
+    .block1 .block2 h4 {
+       margin-top: -70%;
+       margin-bottom: 30%;
+       margin-right: -40%;
+       font-size: 20px;
+    }
+    .block1 .block2 .doc-h5 { 
+       margin-left: 45%; 
+       margin-top: -70%;
+       margin-bottom: 30%;
+       font-size: 20px;
+    }
+    .block1 .block2 h5{
+        display: none;
+    }
+    .block1 .block2 .ph5{
+        display: none;
+    }
+    .block1 .block2 p{
+        display: none;
+    }
+    .block1 .block2 .stars{
+        display: none;
+    } 
+    /* .block1 .block2 .paragraph .email p{
+        margin-left: 30%;
+    }  */
+}

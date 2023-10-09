@@ -1,0 +1,31 @@
+.home1{
+    min-height:86vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(home2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.v1 {
+    flex:1 1 40rem;
+    animation: slide.6s linear 1s backwards;
+  }
+  
+  @keyframes slide{
+    0%{
+      opacity: 0;
+      transform: translateX(-10rem);
+    }
+  } 
+  .home .content {
+    flex:1 1 50rem;
+    animation: slideContent .6s linear 1s backwards;
+  }
+  
+  @keyframes slideContent{
+    0%{
+      opacity: 0;
+      transform: translateX(-10rem);
+    }
+  }
